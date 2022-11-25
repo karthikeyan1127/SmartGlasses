@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "migration-sample"
+version = "0.1.0"
+description = ""
+authors = ["Yoshiyuki HINO <yhinoz@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "*"
+opencv-python = "4.6.0.66"
+gTTS = "2.3.0"
+pygame = "2.1.2"
+PyAudio = "0.2.12"
+SpeechRecognition = "3.8.1"
+google-cloud-speech = "2.16.2"
+google-auth = "2.14.1"
+google-cloud-vision =  "3.1.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
